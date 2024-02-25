@@ -5,8 +5,11 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Travel",
+  title: "Travel Site",
   description: "Travel UI/UX App for Camping",
+  icons: {
+    icon: "/icon.ico",
+  },
 };
 
 export default function RootLayout({
