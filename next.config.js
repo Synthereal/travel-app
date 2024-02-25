@@ -2,8 +2,7 @@
 const nextConfig = {
   basePath: "/travel-app",
   output: "export",
-  // images: { unoptimized: true },
-  reactStrictMode: true,
+  images: { unoptimized: true },
 };
 
 module.exports = nextConfig;
